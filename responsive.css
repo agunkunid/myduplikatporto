@@ -1,0 +1,42 @@
+@media screen and (max-width: 1200px) {
+  #hero p {
+    font-size: 0.9rem;
+  }
+  #hero h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #hero img {
+    width: 50%;
+    position: center !important;
+  }
+  #hero .row {
+    padding-bottom: 75px;
+  }
+
+  .sosmed-icon1 {
+    position: center !important;
+  }
+  #About p {
+    text-align: justify !important;
+    font-size: 1rem;
+  }
+  #Skill .card h3 {
+    font-size: 1.3rem;
+  }
+  #Portofolio .card p {
+    font-size: 3%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .btn-btn-custom1 {
+    width: 80%;
+  }
+  #Portofolio .col-md-12 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 350px) {
+}
